@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta http-equiv="Refresh" content="0; url=//www.w3docs.com" /> -->
+
+        <title>The Mellow Sheep</title>
+
+        <link rel="stylesheet" type="text/css" href="graphic_chart.css">
+    </head>
+
+    <body>
+        <h1>The Mellow Sheep</h1>
+        <br/>
+
+        <!-- ^^ header ^^ -->
+
+        <!-- TODO : add icon for each social media
+            => database / class ? name | logo | background | link | ongoing -->
+
+        <div id="operational">
+            <script type="module">                
+                import {addButtons} from "./social_media.js";
+                let operational = [["Instagram", "https://www.instagram.com/themellowsheep/"]];
+                addButtons(operational, false);
+            </script>
+        </div>
+        
+        <div id="ongoing">
+            <br/>
+            <h2> Coming soon ... </h2>
+
+            <script type="module">                
+                import {addButtons} from "./social_media.js";
+                let ongoing = [["Website", null], ["Tik Tok", null], ["LinkedIn", null], ["Newsletters", null]]; 
+                addButtons(ongoing, true);
+            </script>
+
+        </div>
+    </body>
+</html>

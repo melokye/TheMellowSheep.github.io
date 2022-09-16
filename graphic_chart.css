@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+
+    padding: 10%;
+    width: 75%;
+    margin: 2%;
+
+    font-size: 100%;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+    
+}
