@@ -5,4 +5,4 @@ To clone the project :
 `git clone https://github.com/TheMellowSheep/TheMellowSheep.github.io.git`
 
 Access to the website :
-`TheMellowSheep.github.io`
+`TheMellowSheep.github.io` or `www.themellowsheep.com`

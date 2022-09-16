@@ -14,7 +14,7 @@ export function addButtons(list, disabled){
         if(elem[1] != null)
             newButton.setAttribute("onclick", "window.location.href='" + elem[1] + "';" );
         else{
-            newButton.setAttribute("onclick", "window.href='www.TheMellowSheep.github.io/not_available.html';" );
+            newButton.setAttribute("onclick", "window.href='www.themellowsheep.com/not_available.html';" );
         }
 
         if(disabled){
